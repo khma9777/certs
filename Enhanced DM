@@ -1,0 +1,61 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "a68bead7-f3c6-42d6-8578-aafcf1fce320:string:10897098",
+    "name": "c36c4299-9924-4a4e-acae-a0d28f7bf56e:string:ENHANCED DIGITAL MARKETING-P201208WTF",
+    "recipient": {
+      "name": "4809a226-f5e1-405d-b70b-49fd85528341:string:KWEK HAN MIN",
+      "nric": "59b2c407-0f11-4646-b34e-dc9c672b5a81:string:S9741378I",
+      "email": "eab6a058-c306-43ca-babf-dbe4023c5fba:string:ashley.khm97@gmail.com"
+    },
+    "issuedOn": "288eea75-01d9-4f9a-80a3-7978d25336fb:string:2021-11-30T08:00:00+08:00",
+    "issuers": [
+      {
+        "id": "df9fec2b-40f3-4eaa-9f65-a14c1c0d8f42:string:did:ethr:0xde7518e9fc310a4e5c4e7ebb0502883f6abc103b",
+        "name": "2d08f5d0-e3b9-4775-8110-9f96bc9a252f:string:NTUC LearningHub",
+        "revocation": {
+          "type": "f30ea2a0-f7a4-4f91-a015-9a079ecb6655:string:REVOCATION_STORE",
+          "location": "d2908dd7-60d7-4ffc-a5e5-eef6864975b8:string:0xed9dcd488638fbb70643a760740f1c4b53b2799a"
+        },
+        "identityProof": {
+          "type": "3ab14171-b650-412c-9dc7-69905c58e237:string:DNS-DID",
+          "key": "4e4708fd-7763-4b76-902e-ef3ba844c709:string:did:ethr:0xde7518e9fc310a4e5c4e7ebb0502883f6abc103b#controller",
+          "location": "7f5ee055-805c-407e-904d-1474c6e3f099:string:certstore.ntuclearninghub.com"
+        }
+      }
+    ],
+    "additionalData": {
+      "extra": {
+        "dateFrom": "65b221d5-93ed-49cc-9950-ccabb379acaf:string:2021-11-22T08:00:00+08:00",
+        "dateTo": "0a6c2068-610f-41ba-866b-988930b9d308:string:2021-11-23T08:00:00+08:00"
+      },
+      "qrCode": "41af334f-57bb-4430-95b7-9663730d1bfa:string:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAACqCAIAAACyFEPVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAHoElEQVR4nO2dUW70NgyEm6A3MJL732rvsDlE+lB0IeRfVjMiaXkz8z0FhlamTYQ0RYp6+/7+/suo8r5bALMTq18aq18aq18aq18aq18aq18aq18aq18aq1+aufrfGvj6+preCxlTNSdCNE/H/FVMb+r/fmmsfmmsfmn+pkbfbrfjONbu9Pn5+fT66KLG+ccbIW4smj+aM2K81/1+//j4ePz9uB7NM8ow/haZP5KZJXoPT+HUfxzHU3Gr6Ji/as7WB/9B93t+YOMvjdUvDWf8RxB/HPm2CMpv/SDyl9Gco2zs9wf7XMj8yG8jWHkerKv/alT5y1f8vlnGxl8aq1+a/cZ/jKcR3z/6znE8Evcj80exOyInci9kbeA09quffX7Wd54Z91/KryPY+Etj9Uuz3/hHMXEEEitHPhjxzUjcj6wxsN8cW9iv/pHu2B2Z/8wx27Hxl8bql2bd+I9xcASbtI5i4sx6eyZeR/L9yHp+9K6Q99Pxnh+sq//6ju1fquL1zDyZd9X6nm38pbH6peGMf3f8ysbrSGwd+Wb2Wdjvj2g8Ms9p6wSvEfdn4vjM+F+Pjb80Vr80c+OPxJ0sSJ08WxMXEcX9yPcEG5dnxne85ylz9e9ylt15+qrvCVbIaPyW92zjL43VL83c+Ed15mwsG82D5M6RtffIxyMxOuK/2ZpEFraeH9HLlP1xf5Wv7V5X/5ULBjb+0lj90tQYf8TvIr4z8mfsvnkEpLYgA7J+wNYPjpR8i9SoX9Z3/g/d+YiS92njL43VL816b59MvjyT10fi8hG2vg+5jpCpc0TkRMbMT+r5njEOvt/vT69HROMz11k6ZKsi8w6RMVMBbPylsfql4fL9kT9D/FN33p3NKSD5ghG2RxAypmov4noOosRvsf4y81tEno55kPnZMex1dsz0YW38pbH6peHifnY/G+uTkO8MpOfuSNW+QfYbIhoTyRZdb+0TsL7mf7X9bN05hap9gB33XcbGXxqrX5o3KtRh68uis22QGDpz38y+PnANY3mPH3vez3Ec7+/vf84ZMco/FbK31u8KOf6r7QO8wjfKAxt/aax+aTjjz8b0yDp89778qj4B0ZzImj+bL0DmRGoDpx92nPqr/NYuf1y1r+8KlMhs4y+N1S/N+h6/TP1dtE6OXB9hc+GIX0dyB2wtAlvDH8kTPcv6uQDL+e+O2jcE5KEyNYnIfZE6hl3jx+vTh7Lxl8bql6amzp+NX9k1c0SGkczafiQb29M349dHkPlP2uN3hfh413l9HWf5dJ9jNMXGXxqrX5r6hC/beweB7ZOP7M1jZUO+V6r2PbJ9D5epV39H751MXeGuGj2WLXkQG39prH5p6o1/Jm/NrqsjNf9RjF51fi6ydzGSYQTJX4wgc07XvK/b1y/j28705WzPYBbX+ZsurH5p1s/yqTp3h625y+QLMuNr8ut8DyJ2Tmqe+j1+GV9+hZxCNx0PuDynjb80Vr80XG8fpG8PspZ+tbp91h8jMXpVP6LWdYuas3zYdf6r1e3v2r/QPc8UG39prH5puDr/jE9iY1O2115mn96P+z6Vv+o7owPkXICnnFfrV3XeXUS3v3yV/YHe329QrH5pauL+iEyfXZaqfviIDJlzeDvW9pfPO95zhu+Z/rIj17DrHN7ydRQbf2msfmnW9/dHVPWfZ9e0kT30bE+haJ5ITrb/ICsPW+twoVq/XXH5mTKwbJfHxl8aq1+aeU/fqvP3FurYn/ayzfTJie473mvsuQuuE0zlRPrysvIg73aq3Jpz/KrOpGFliMYgsPdlZajq54PMH805ndDGXxqrX5r1c/zYvnsdeXF2TSIzJ1LrwO7rG6k6a4Bifc3/avn4bq6wruDePqYSq18abs0/06cvs3efpeNs3I6zdKv2Q65TEmt299Bl79V9Nm5mfIecy9j4S2P1S1NT68f6pKp9a2xfP7bWD6ndy+xpzOw/LHmH9bV+Z8b3VX39Mn0DkfGX7VNk4y+N1S8Nl+8fYXv7Z2B7/ow5cjaXH82J+Fek1q8jTxExVW59b58OXqUO/+Ww8ZfG6peGi/tHkNw/u+cts/cv0wcwUz+YOecQWSOpX+cf2NPbJ2JXTUDHfTvqA5zvN5VY/dpMc4IdN80kSUdut9v9PzL3ysiDyMDet0rmqXL39/PPcIX6wSvIsIyNvzRWvzTrZ/iyIP2Ao/FsPV1Vj79ozhHkhYA5i+mcG+r8Rzr8XMfZuLvi+MxvO97DFBt/aax+adYDPyRvzdbuIfvl2D2HmXN+R9g9ewjdZxlMuW7cz9bfZfIOrxi7l/QYtvGXxuqXZr/xz/TRi+ZBxrC1ipmzc6r6GbDfQ1P2q38Xv8nf+xw/s4LVL81+44/sIUTq5iL/h3xbZPr5IzF3Va9Dtq9wY51/FVVxecaRV+0jqKrvO+27xMZfGqtfmnXjz+59j6haP49idPZ8XnYdApEHmQdZh2CfZcq6+l8laH4VObu/b55i4y+N1S8NZ/y7z6hF6ukQH4/E/ctn34FyZn6LrIVkchAP9sf9I2f2wOmu3cv89rTvFRt/aax+aea9fcwvxv/90lj90lj90lj90lj90lj90lj90lj90lj90lj90vwD7RRiZr9B7ccAAAAASUVORK5CYII="
+    },
+    "$template": {
+      "name": "8ee016fc-e52b-4c85-84ab-463e414c026f:string:NTUC-2021-18",
+      "type": "4987e7cd-74a0-4b94-a2bb-7bf7dfbedec3:string:EMBEDDED_RENDERER",
+      "url": "83d603aa-7a23-404f-83f0-51fec74e3e63:string:https://opencerts.ntuclearninghub.com"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "3414b3cd3b0368781f176fec99dc7c0787ccafe639de2f9bf021601e7197a048",
+    "proof": [
+      "6a2a45ec3d7a98f1f575745d1e13769811e335573a8400054721eab413b6754b",
+      "a5bcfd5978a8063ac4035b3768757eac5ab00a7f9a6b3f4c1486dcea8a9fb58c",
+      "efc98735b7fb9875c0731105c8841f5f4b3a10ac0d3f8929f0c4eb27db4c1331",
+      "47ea9328ff0515d67c2c7374f9f3eb027df4cc83a51cce2f036d67b3b53bdfe6"
+    ],
+    "merkleRoot": "a536c7525cce41bd0113737d4a8631f4cf68ebb1863ca4d723f2101ade55ec33"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2021-11-30T05:15:51.137Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0xde7518e9fc310a4e5c4e7ebb0502883f6abc103b#controller",
+      "signature": "0x5ac53373a42b7d7f4a7a21c016d1e0e8e6dcb4bf02e24e6b585556fd3d76d9747274be224ac499e2d6ac4d1604c09f5907a024741356d61ec0a9dac911a48fdf1c"
+    }
+  ]
+}
